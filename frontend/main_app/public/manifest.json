@@ -1,0 +1,32 @@
+{
+  "name": "Workgent - Employ and get employed",
+  "short_name": "Workgent",
+  "description": "Agent for jobs and works.",
+  "icons": [
+    {
+      "src": "/logo/logo_72x72.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/logo/logo_192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/logo/logo_512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    }
+  ],
+  "start_url": ".",
+  "scope": "../",
+  "display": "standalone",
+  "theme_color": "#3f51b5",
+  "background_color": "#f2f2f2",
+  "orientation": "portrait-primary",
+  "permissions": ["http://localhost:3000/*", "https://example.com/*"]
+}

@@ -1,0 +1,183 @@
+﻿Provider:
+ 
+* Form + Recommendation
+* Response evaluation
+* Communication (getting in touch)
+* Both end verification
+* Payment
+* Feedback
+
+
+
+
+
+
+SCHEMA
+ 
+	
+
+	
+
+	
+
+	
+
+	
+
+	 
+	User:
+* UUID
+* Username
+* Contact
+* Email
+* DP
+* Address
+   * State
+   * Dist
+   * Sub-dist
+   * Mohalla
+   * Add-line
+   * Locality
+   * PIN
+   * Geo-coords
+* Skillset (seeker)
+* Payment info
+   * Razorpay
+* About-me
+* Is Prime
+* Joining date
+* Last login
+* Sessions active
+ 
+	
+
+	
+
+	
+
+	
+
+	 
+	
+
+	Job:
+* UUID
+* Job owner
+* Job title
+* Posting time
+* Validity (job deadline)
+* No. of vacancy
+* Payment
+* Payment unit
+* Job duration (in sec)
+* Is Permanent
+* Job Address
+   * State
+   * Dist
+   * Sub-dist
+   * Mohalla
+   * Add-line
+   * Locality
+   * PIN
+   * Geo-coords
+ 
+* Job descriptions (bullet points)
+* Workplace pics
+* Recommended skill set
+	
+
+	
+
+	 
+	
+
+	
+
+	Review:
+* UUID
+* Rating
+* Review text
+* Review images
+* Review timing
+ 
+Needs:
+* Total count of reviews
+* Count of each star reviewers
+* List of all the review
+	
+
+	
+
+	
+
+	
+
+	 
+	
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+	
+
+	
+
+ 
+	
+
+	
+
+	
+
+	
+
+	
+
+	 
+	
+
+	
+
+	
+
+	
+
+	Banner:
+* UUID
+* Owner id
+ 
+ 
+	 
+	
+
+	
+
+	Transactions:
+* UUID
+* Application Id
+* Time
+* Mode
+* Comment
+* Payment total
+* Payment due
+* Total paid
+* Status
+	
+
+	 
+	Application:
+* UUID
+* Job id
+* User id (seeker)
+* Job status
+* Application timing
+* Cover letter

@@ -1,0 +1,10 @@
+export const pri_col = "#0066cc";
+export const pri_col_click = "#0057ad";
+export const sec_col = "#2e3192";
+export const white = "#ffffff";
+export const black = "#000000";
+export const light_gray = "#dddddd";
+export const text_8a = "#8a8a8a";
+export const text_5c = "#5c5c5c";
+export const pri_very_light = "#d9efff";
+export const error_light = "#ffdfdf";

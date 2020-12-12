@@ -1,0 +1,120 @@
+/* visiblity */
+.hid {
+  display: none;
+}
+.vis-flex {
+  display: flex;
+}
+.vis {
+  display: block;
+}
+/* flex properties */
+.fcc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fccc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.fcc_around {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.fcol {
+  display: flex;
+  flex-direction: column;
+}
+.fc {
+  display: flex;
+  align-items: center;
+}
+.fend {
+  display: flex;
+  align-items: flex-end;
+}
+.fjustc {
+  display: flex;
+  justify-content: center;
+}
+.fc_bw {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.fc_ar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.f1 {
+  display: flex;
+  flex: 1;
+}
+.f0 {
+  flex: 0 0;
+}
+.f2 {
+  display: flex;
+  flex: 2;
+}
+.f_wrap {
+  flex-wrap: wrap;
+}
+.grid-200 {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 8px;
+}
+.tabs_grid-2 {
+  display: flex !important;
+  flex-wrap: wrap;
+}
+
+/*for screen size larger or equal to 768px*/
+@media screen and (min-width: 768px) {
+  .f_lrtb,
+  .f_lrtb-notab {
+    display: flex;
+  }
+  .pc_space_bw {
+    justify-content: space-between;
+  }
+  .pc_align_cent {
+    align-items: center;
+  }
+  .justev-pc {
+    justify-content: space-evenly;
+  }
+}
+
+/*for screen size greater or equal to 375px less than  768px*/
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .f_lrtb {
+    display: flex;
+    flex-direction: column;
+  }
+  .f_lrtb-notab {
+    display: flex;
+  }
+  .alignc-mob {
+    align-items: center;
+  }
+}
+
+/*for screen size less than 375px*/
+@media screen and (max-width: 374px) {
+  .f_lrtb,
+  .f_lrtb-notab {
+    display: flex;
+    flex-direction: column;
+  }
+  .alignc-mob {
+    align-items: center;
+  }
+}
